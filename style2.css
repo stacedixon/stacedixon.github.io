@@ -1,0 +1,21 @@
+body {
+    background-color: #D6B1C1;
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+    height: 60px;
+    width: 120px;
+    float: left;
+}
+
+#chgTextColor {
+    color: white;
+}
+
+footer{
+    text-align: center;
+}
