@@ -4,6 +4,7 @@ body {
 
 header {
     text-align: center;
+    padding-left: 100px;
 }
 
 nav {
@@ -18,4 +19,5 @@ nav {
 
 footer{
     text-align: center;
+    padding-left: 100px;
 }
