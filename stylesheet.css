@@ -1,0 +1,95 @@
+ /* Global heading settings - ToDo: Add Logo*/ 
+ header {
+    text-align: center;
+    font-family: Poppins; 
+}
+
+/* Style the links inside the navigation bar - w3schools top navigation bar tutorials */
+.topnav a {
+    float: right;
+    /*color: #D6B1C1; - original brand color */
+    color: #3FB1AA;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 102px;
+}
+
+a:link { /*change color and settings of active links tutorial from w3 schools*/
+  color: #3FB1AA;
+  background-color: transparent;
+  text-decoration: none
+}
+
+a:visited { /* Change the color of visited links - w3schools color links tutorials - I don't like this as much so I left it my link text color, otherwise it defaults to a dark purple */
+  color: #3FB1AA;
+  background-color: transparent;
+  text-decoration: none;
+} 
+
+/* Change the color of links on hover - w3schools color links tutorials */
+a:hover {
+    color: #EC9ECD;
+  }
+
+body{
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: "Poppins", sans-serif;
+  }
+
+  /* Style the form element with a border around it */
+form {
+  border: 4px solid  #3FB1AA;
+}
+
+/* Add some padding and a pink background color to containers */
+.container {
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+/* Style the input elements and the submit button */
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Add margins to the checkbox */
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #EC9ECD;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+footer{
+    /*background-color: #D6B1C1; - original brand color */
+    /*TODO: change the link text to white */
+    background-image: linear-gradient(to right, #3FB1AA, #C09FD2, #EC9ECD, #FC9944); /*testing out a new brand color scheme and style */
+    color: white;
+    text-align: center;
+}
